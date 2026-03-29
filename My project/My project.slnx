@@ -5,6 +5,7 @@
   <Project Path="Unity.TextMeshPro.Editor.csproj" />
   <Project Path="UnityEditor.UI.csproj" />
   <Project Path="Unity.RenderPipelines.Core.Runtime.csproj" />
+  <Project Path="MerryYellow.CodeAssist.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="UnityEditor.TestRunner.csproj" />
   <Project Path="UnityEngine.TestRunner.csproj" />

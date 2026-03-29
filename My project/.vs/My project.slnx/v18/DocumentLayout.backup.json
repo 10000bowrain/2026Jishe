@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Programming\\Github\\jishe\\My project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\dialoguedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\dialoguedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\dialogueline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\dialogueline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\roleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\roleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,21 +26,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DialogueDataSO.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueDataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\DialogueDataSO.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueDataSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\DialogueDataSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:04:50.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DialogueLine.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueLine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\DialogueLine.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueLine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\DialogueLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:04:23.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleInfo.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\RoleInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\RoleInfo.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\RoleInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\RoleInfo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:03:48.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CatUbteract.cs",
               "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CatUbteract.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\CatUbteract.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBkAAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CatUbteract.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA2wBYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T15:08:05.918Z",
               "EditorCaption": ""

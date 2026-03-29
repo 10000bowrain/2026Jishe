@@ -5,11 +5,11 @@ using TMPro; // 必须加，用于调用TextMeshPro
 
 public class CatDistanceCheck : MonoBehaviour
 {
-    [Header("=== 拖拽设置 ===")]
+    [Header("拖拽设置")]
     public Transform cat; // 拖拽场景中的Cat胶囊体到这里
     public TextMeshProUGUI tipText; // 拖拽刚才创建的CatTip文字到这里
 
-    [Header("=== 触发距离(米) ===")]
+    [Header("触发距离(米)")]
     public float triggerDistance = 3f; // 角色离小猫3米内显示文字
 
     // 每帧检测距离
@@ -26,7 +26,7 @@ public class CatDistanceCheck : MonoBehaviour
             Debug.Log($"{tipText.enabled}");
             if (Input.GetKeyDown(KeyCode.E))
             {
-                OnInteractWithCat();
+                //OnInteractWithCat();
             }
         }
 

@@ -20,3 +20,21 @@ MonoBehaviour:
       roleHead: {fileID: 0}
       rolePosition: 0
     isMonologue: 1
+  - dialogueContent: "\u5DE6\u8FB9\u4EBA\u6D4B\u8BD5"
+    speaker:
+      roleName: "\u4E3B\u89D2"
+      roleHead: {fileID: 21300000, guid: 9f7c422f7340425408072f52966f09c5, type: 3}
+      rolePosition: 0
+    isMonologue: 0
+  - dialogueContent: "\u53F3\u8FB9\u4EBA\u6D4B\u8BD5"
+    speaker:
+      roleName: "\u4E3B\u89D2"
+      roleHead: {fileID: 21300000, guid: 9f7c422f7340425408072f52966f09c5, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u53F3\u8FB9\u4EBA\u6D4B\u8BD5"
+    speaker:
+      roleName: "\u4E3B\u89D2"
+      roleHead: {fileID: 21300000, guid: 9f7c422f7340425408072f52966f09c5, type: 3}
+      rolePosition: 1
+    isMonologue: 0

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movement")]
     public float moveSpeed = 5f;
-    public float rotationSpeed = 100f;
+    //public float rotationSpeed = 100f;
     private CharacterController controller;
     private float gravity = -9.81f;
     private Vector3 velocity;
@@ -19,8 +20,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // 1. 处理移动输入
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
         Vector3 moveDirection = transform.right * horizontal + transform.forward * vertical;
         moveDirection.Normalize();
 
@@ -44,7 +45,7 @@ public class PlayerController : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
 
         // 5. 视角旋转
-        float mouseX = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
-        transform.Rotate(Vector3.up * mouseX);
+        //float mouseX = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
+        //transform.Rotate(Vector3.up * mouseX);
     }
 }

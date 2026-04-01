@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\scripts\\game\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Game\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\materials\\leaf.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\materials\\leaf.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\materials\\leaf.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
@@ -22,32 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
-              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T13:01:03.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAzwDAAAAAwAAAAAAAAAA==",
+              "Title": "UI.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\UI.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\UI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T13:00:53.997Z",
+              "WhenOpened": "2026-04-01T13:54:17.822Z",
               "EditorCaption": ""
             },
             {
@@ -56,7 +51,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Game.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Game.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Game.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Game.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T13:39:31.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T13:01:03.431Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwDAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T13:00:53.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "leaf.shader",
               "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\leaf.shader",
               "RelativeDocumentMoniker": "Assets\\Materials\\leaf.shader",
@@ -64,8 +94,7 @@
               "RelativeToolTip": "Assets\\Materials\\leaf.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-27T03:35:20.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T03:35:20.977Z"
             }
           ]
         }

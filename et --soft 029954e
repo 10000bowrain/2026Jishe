@@ -1,0 +1,30 @@
+[33m1e9ff64[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mliuyang[m[33m, [m[1;31morigin/liuyang[m[33m)[m HEAD@{0}: reset: moving to origin/liuyang
+[33m029954e[m HEAD@{1}: checkout: moving from liuyang to liuyang
+[33m029954e[m HEAD@{2}: commit: 对话系统基本做完了。靠近猫时按E对话。
+[33m3762a0d[m HEAD@{3}: commit: 实现了角色不卡脚行走和距离猫一定距离时显示提示文本。按AI的尝试添加对话系统（还没做完）。
+[33md06747f[m HEAD@{4}: commit (merge): Merge branch 'main' of github.com:10000bowrain/2026Jishe into liuyang
+[33mcc271cf[m HEAD@{5}: commit: 1
+[33me0a1c8e[m HEAD@{6}: checkout: moving from main to liuyang
+[33me0a1c8e[m HEAD@{7}: checkout: moving from master to main
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{8}: checkout: moving from main to master
+[33me0a1c8e[m HEAD@{9}: checkout: moving from ly to main
+[33me59b682[m[33m ([m[1;31morigin/ly[m[33m)[m HEAD@{10}: checkout: moving from main to ly
+[33mfae1a2e[m HEAD@{11}: checkout: moving from ly to main
+[33me59b682[m[33m ([m[1;31morigin/ly[m[33m)[m HEAD@{12}: checkout: moving from main to ly
+[33mfae1a2e[m HEAD@{13}: checkout: moving from ly to main
+[33me59b682[m[33m ([m[1;31morigin/ly[m[33m)[m HEAD@{14}: checkout: moving from main to ly
+[33mfae1a2e[m HEAD@{15}: pull origin main: Fast-forward
+[33m99f7f2c[m HEAD@{16}: checkout: moving from ly to main
+[33me59b682[m[33m ([m[1;31morigin/ly[m[33m)[m HEAD@{17}: checkout: moving from main to ly
+[33m99f7f2c[m HEAD@{18}: checkout: moving from master to main
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{19}: checkout: moving from ly to master
+[33me59b682[m[33m ([m[1;31morigin/ly[m[33m)[m HEAD@{20}: checkout: moving from master to ly
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{21}: checkout: moving from ly to master
+[33me59b682[m[33m ([m[1;31morigin/ly[m[33m)[m HEAD@{22}: commit: 1
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{23}: checkout: moving from master to ly
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{24}: checkout: moving from testbranch to master
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{25}: checkout: moving from master to testbranch
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{26}: checkout: moving from testbranch to master
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{27}: checkout: moving from testbranch to testbranch
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{28}: checkout: moving from master to testbranch
+[33ma3d23bf[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{29}: commit (initial): test

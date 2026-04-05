@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\scripts\\game\\scenejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\scenejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\fishgame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\fishgame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\scripts\\game\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\scripts\\game\\fishgame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\fishgame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Game\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\materials\\leaf.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\materials\\leaf.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\fishgame\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\fishgame\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SceneJump.cs",
-              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\SceneJump.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\SceneJump.cs",
-              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\SceneJump.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\\SceneJump.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T14:28:00.063Z",
+              "WhenOpened": "2026-04-05T04:08:24.863Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\FishGame\\Player.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\FishGame\\Player.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIA2wCcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T05:22:44.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UI.cs",
-              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\UI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\UI.cs",
-              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\UI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\\UI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\FishGame\\Enemy.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\FishGame\\Enemy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T13:54:17.822Z",
+              "WhenOpened": "2026-04-04T14:22:55.667Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Game.cs",
-              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Game.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Game.cs",
-              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Game.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\\Game.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T13:39:31.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
-              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T13:01:03.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwDAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T13:00:53.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "leaf.shader",
-              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\leaf.shader",
-              "RelativeDocumentMoniker": "Assets\\Materials\\leaf.shader",
-              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\leaf.shader",
-              "RelativeToolTip": "Assets\\Materials\\leaf.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-27T03:35:20.977Z"
             }
           ]
         }

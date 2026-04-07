@@ -1,24 +1,21 @@
 // 对话核心逻辑：串联所有脚本，控制对话启动、逐句播放、点击切句、结束
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.EventSystems; // 需添加此命名空间
 public class DialogueCore : MonoBehaviour
 {
     // 玩家输入组件（拖拽玩家对象即可）
-    public PlayerInput playerInput; // 用于控制玩家输入的组件
-
+    public PlayerInput playerInput;
     // 玩家移动组件（根据自己的玩家脚本修改，比如CharacterController、Rigidbody）
-    public CharacterController playerMove; // 控制玩家移动的组件，若用Rigidbody需相应修改
-
+    public CharacterController playerMove; // 若用Rigidbody，改
     // 引用其他脚本（自动获取，无需手动拖拽）
-    private DialogueDataManager dataManager; // 管理对话数据的脚本
-    private DialogueUIController uiController; // 控制对话UI显示的脚本
+    private DialogueDataManager dataManager;
+    private DialogueUIController uiController;
 
     // 当前正在播放的对话配置文件
-    private DialogueDataSO currentDialogueData; // 当前对话的数据对象
+    private DialogueDataSO currentDialogueData;
 
     // 对话是否正在播放（防止重复点击）
-    public bool isDialoguePlaying = false; // 标记对话是否进行中，防止重复触发
+    public bool isDialoguePlaying = false;
 
     private void Awake()
     {
@@ -39,7 +36,7 @@ public class DialogueCore : MonoBehaviour
         uiController.InitDialogueUI();
         PlayNextDialogueLine();
 
-        // 冻结玩家输入和移动
+        // 新增：冻结玩家输入和移动（核心代码）
         if (playerInput != null)
         {
             playerInput.enabled = false; // 禁用玩家输入
@@ -48,7 +45,6 @@ public class DialogueCore : MonoBehaviour
         {
             playerMove.enabled = false; // 禁用玩家移动（若用Rigidbody，改为playerMove.velocity = Vector3.zero; playerMove.isKinematic = true;）
         }
-
     }
 
     // 播放下一句对话（鼠标点击、自动切换时调用）
@@ -75,8 +71,10 @@ public class DialogueCore : MonoBehaviour
         isDialoguePlaying = false;
         currentDialogueData = null;
         uiController.CloseDialogueUI();
-
-        // 新增：恢复玩家输入和移动
+        //禁用鼠标
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        // 新增：恢复玩家输入和移动（核心代码）
         if (playerInput != null)
         {
             playerInput.enabled = true;
@@ -104,14 +102,10 @@ public class DialogueCore : MonoBehaviour
         // 只有对话正在播放时，点击才有效
         if (isDialoguePlaying && Input.GetMouseButtonDown(0))
         {
-            // 判断鼠标是否点击在UI上
-            if (!EventSystem.current.IsPointerOverGameObject())
-            {
-                // 鼠标左键点击（0代表左键），播放下一句
-                PlayNextDialogueLine();
-            }
+            // 鼠标左键点击（0代表左键），播放下一句
+            PlayNextDialogueLine();
         }
-        //Debug.Log($"{Cursor.visible}");
-        //Debug.Log($"{Cursor.lockState}");
+        Debug.Log($"{Cursor.visible}");
+        Debug.Log($"{Cursor.lockState}");
     }
 }

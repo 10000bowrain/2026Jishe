@@ -63,7 +63,7 @@ public class QuizManager : MonoBehaviour
             ShowQuestion();
         }
 
-        else
+        else//´ğÌâ½áÊø
         {
             EndCanvas.SetActive(true);
             StartCanvas.SetActive(false);

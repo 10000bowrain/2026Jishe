@@ -25,13 +25,13 @@ public class Player : MonoBehaviour
     [SerializeField] private bool canMove;//移动检测
     [SerializeField] private GameObject DetectedGameObject;//钩爪碰撞的敌人
     [SerializeField] RaycastHit hit;
-    [SerializeField] private LayerMask enemy;
+    [SerializeField] private LayerMask enemy;//检测面板
 
 
     private void Start()
     {
         dash.localPosition = new Vector3(0, 0, 0);
-        canMove = true;
+        canMove = true;//检测移动
     }
 
     private void Update()
@@ -64,11 +64,11 @@ public class Player : MonoBehaviour
         if (getInPlay&&getBack==false)//钩爪下落状态
         {
             float step = dashSpeed * Time.deltaTime;
-            length += step;
+            length += step;//step连续增加 控制钩爪伸长的长度
             dash.localPosition = new Vector3(0, -length, 0);
         }
 
-        if(DetectedGameObject!=null)//钩爪检测到之后
+        if(DetectedGameObject!=null)//钩爪检测到之后的下坠逻辑
         {
             if (DetectedGameObject.transform.position.y >originalPosition.y)
             {
@@ -84,7 +84,7 @@ public class Player : MonoBehaviour
 
         if (getBack)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space))//上拉
             {
                 dash.localPosition = new Vector3(dash.localPosition.x, dash.localPosition.y+Force, 0);
                 DetectedGameObject.transform.position = new Vector3(DetectedGameObject.transform.position.x, DetectedGameObject.transform.position.y + Force, 0); 
@@ -92,7 +92,7 @@ public class Player : MonoBehaviour
         }
 
 
-        if (DetectedGameObject !=null&&DetectedGameObject.transform.position.y>0)
+        if (DetectedGameObject !=null&&DetectedGameObject.transform.position.y>0)//物体被拉住时的状态重置
         {
             length = 0;
             canMove=true;

@@ -9,13 +9,13 @@ public class Event : MonoBehaviour
     [SerializeField] private GameObject Exit;
     [SerializeField] private GameObject EndEvent;
 
-    public void RegisterCollider(Collider col)
+    public void RegisterCollider(Collider col)//注册碰撞
     {
         if (!collidersInRange.Contains(col))
             collidersInRange.Add(col);
     }
 
-    public void UnregisterCollider(Collider col)
+    public void UnregisterCollider(Collider col)//注销碰撞
     {
         if (collidersInRange.Contains(col))
             collidersInRange.Remove(col);
@@ -23,7 +23,7 @@ public class Event : MonoBehaviour
 
     private void Update()
     {
-        if(collidersInRange.Count==0)
+        if(collidersInRange.Count==0)//敌人的碰撞全部消失之后
         {
             Exit.SetActive(true);
             EndEvent.SetActive(true);

@@ -104,7 +104,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Tile",
     "m_StageCapability": 3,
-    "m_Value": 0.41999998688697817,
+    "m_Value": 0.5600000023841858,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
@@ -289,9 +289,9 @@
     "m_ShaderOutputName": "BaseColor",
     "m_StageCapability": 2,
     "m_Value": {
-        "x": 0.5,
-        "y": 0.5,
-        "z": 0.5
+        "x": 0.849056601524353,
+        "y": 0.8369781374931336,
+        "z": 0.7983267903327942
     },
     "m_DefaultValue": {
         "x": 0.0,
@@ -344,10 +344,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -403.9999694824219,
-            "y": 0.0000011774682207033039,
-            "width": 209.33328247070313,
-            "height": 434.6667175292969
+            "x": -387.3333435058594,
+            "y": 269.3333740234375,
+            "width": 209.33335876464845,
+            "height": 434.66668701171877
         }
     },
     "m_Slots": [

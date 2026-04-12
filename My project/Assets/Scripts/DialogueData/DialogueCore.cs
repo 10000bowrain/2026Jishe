@@ -17,7 +17,7 @@ public class DialogueCore : MonoBehaviour
     // 当前正在播放的对话配置文件
     private DialogueDataSO currentDialogueData; // 当前对话的数据对象
 
-    // 对话是否正在播放（防止重复点击）
+    [Header("当前是否正在播放对话")]
     public bool isDialoguePlaying = false; // 标记对话是否进行中，防止重复触发
 
     private void Awake()
@@ -30,9 +30,11 @@ public class DialogueCore : MonoBehaviour
     // 外部调用：启动对话（后续触发对话时调用，比如点击NPC）
     public void StartDialogue(DialogueDataSO dialogueData)
     {
+        // Debug.Log("进入StartDialogue方法");
         // 解放鼠标
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+
         isDialoguePlaying = true;
         currentDialogueData = dialogueData;
         dataManager.LoadDialogue(dialogueData);
@@ -48,6 +50,7 @@ public class DialogueCore : MonoBehaviour
         {
             playerMove.enabled = false; // 禁用玩家移动（若用Rigidbody，改为playerMove.velocity = Vector3.zero; playerMove.isKinematic = true;）
         }
+        // Debug.Log("退出StartDialogue方法");
 
     }
 
@@ -76,15 +79,11 @@ public class DialogueCore : MonoBehaviour
         currentDialogueData = null;
         uiController.CloseDialogueUI();
 
-        // 新增：恢复玩家输入和移动
+        // 恢复玩家输入和移动
         if (playerInput != null)
-        {
             playerInput.enabled = true;
-        }
         if (playerMove != null)
-        {
             playerMove.enabled = true; // 若用Rigidbody，改为playerMove.isKinematic = false;
-        }
     }
 
     // 跳过当前对话（绑定跳过按钮）

@@ -10,6 +10,7 @@ public class DialogueDataManager : MonoBehaviour
     // 外部调用：加载指定的对话配置文件，初始化对话队列
     public void LoadDialogue(DialogueDataSO dialogueData)
     {
+        // Debug.Log("进入LoadDialogue方法");
         // 清空之前的对话队列，避免重复播放
         currentDialogueQueue.Clear();
 
@@ -18,6 +19,8 @@ public class DialogueDataManager : MonoBehaviour
         {
             currentDialogueQueue.Enqueue(line);
         }
+        // Debug.Log("退出LoadDialogue方法");
+
     }
 
     // 外部调用：获取下一句对话（鼠标点击切句时使用）

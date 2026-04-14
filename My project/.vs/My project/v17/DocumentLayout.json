@@ -1,10 +1,82 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\Unity\\Project\\My project\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Project\\My project\\Assets\\Materials\\leaf.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Materials\\leaf.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+=======
+  "WorkspaceRootPath": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\uFF08\uFF1F\\git demo\\jishe\\my project\\assets\\scripts\\game\\question\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\question\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\question\\questiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\question\\questiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\question\\buttonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\question\\buttonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\EndEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Game\\Puzzle\\EndEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\puzzle\\puzzlepiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\puzzle\\puzzlepiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\puzzle\\puzzlemg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\puzzle\\puzzlemg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\fishgame\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\fishgame\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\fishgame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\fishgame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\game\\fishgame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\fishgame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\SkySeries Freebie\\Hdri setup.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SkySeries Freebie\\Hdri setup.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\timechange\\daynightsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\timechange\\daynightsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\CheckRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Materials\\CheckRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Materials\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\detectgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\collectionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\assets\\scripts\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> origin/Frost2
     }
   ],
   "DocumentGroupContainers": [
@@ -19,6 +91,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "leaf.shader",
               "DocumentMoniker": "D:\\Unity\\Project\\My project\\Assets\\Materials\\leaf.shader",
               "RelativeDocumentMoniker": "Assets\\Materials\\leaf.shader",
@@ -28,6 +101,206 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2026-03-27T03:35:20.977Z",
               "EditorCaption": ""
+=======
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T11:02:00.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Question\\QuizManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Question\\QuizManager.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Question\\QuizManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Question\\QuizManager.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAzwEYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T05:08:10.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionData.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Question\\QuestionData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Question\\QuestionData.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Question\\QuestionData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Question\\QuestionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T05:08:08.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ButtonEvent.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Question\\ButtonEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Question\\ButtonEvent.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Question\\ButtonEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Question\\ButtonEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T05:07:31.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PuzzlePiece.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\PuzzlePiece.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Puzzle\\PuzzlePiece.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\PuzzlePiece.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Puzzle\\PuzzlePiece.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T05:04:47.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Hdri setup.txt",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\SkySeries Freebie\\Hdri setup.txt",
+              "RelativeDocumentMoniker": "Assets\\SkySeries Freebie\\Hdri setup.txt",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\SkySeries Freebie\\Hdri setup.txt",
+              "RelativeToolTip": "Assets\\SkySeries Freebie\\Hdri setup.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-09T06:12:10.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CheckRenderPipeline.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\CheckRenderPipeline.cs",
+              "RelativeDocumentMoniker": "Assets\\Materials\\CheckRenderPipeline.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\CheckRenderPipeline.cs",
+              "RelativeToolTip": "Assets\\Materials\\CheckRenderPipeline.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:25:44.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\NewBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Materials\\NewBehaviourScript.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Materials\\NewBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Materials\\NewBehaviourScript.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:23:36.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DayNightSystem.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\TimeChange\\DayNightSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\TimeChange\\DayNightSystem.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\TimeChange\\DayNightSystem.cs",
+              "RelativeToolTip": "Assets\\TimeChange\\DayNightSystem.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:51:47.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Score.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Score.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Score.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Score.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Score.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T14:16:17.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DetectGame.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\DetectGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectGame.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\DetectGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:47:58.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CollectionEvent.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\CollectionEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CollectionEvent.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\CollectionEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CollectionEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:45:33.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:36:13.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\FishGame\\Enemy.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\FishGame\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:35:04.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PuzzleMG.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\PuzzleMG.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Puzzle\\PuzzleMG.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\PuzzleMG.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Puzzle\\PuzzleMG.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:34:25.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EndEvent.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\EndEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Puzzle\\EndEvent.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\EndEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Puzzle\\EndEvent.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:33:26.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\FishGame\\Player.cs",
+              "ToolTip": "D:\\Unity\uFF08\uFF1F\\git demo\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\FishGame\\Player.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:56:30.328Z"
+>>>>>>> origin/Frost2
             }
           ]
         }

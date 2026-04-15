@@ -8,8 +8,8 @@ public class CollectionEvent : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(Score.CollectScore);
-        if(Score.CollectScore==1)
-            EndUI.SetActive(true);
+        //Debug.Log(Score.CollectScore);
+        //if (Score.CollectScore == 9)
+        //    EndUI.SetActive(true);
     }
 }

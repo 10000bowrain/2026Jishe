@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 
 public class Event : MonoBehaviour
 {
-    [SerializeField]private List<Collider> collidersInRange = new List<Collider>();
+    [SerializeField] private List<Collider> collidersInRange = new List<Collider>();
     [SerializeField] private GameObject Exit;
     [SerializeField] private GameObject EndEvent;
 
@@ -25,6 +25,7 @@ public class Event : MonoBehaviour
     {
         if(collidersInRange.Count==0)//敌人的碰撞全部消失之后
         {
+            // bridge1fishes[0] = true;
             Exit.SetActive(true);
             EndEvent.SetActive(true);
         }

@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
         // 1. 处理移动输入
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        Vector3 moveDirection = transform.right * horizontal + transform.forward * vertical;
+        Vector3 moveDirection = -1 * transform.right * horizontal + -1 * transform.forward * vertical;
         moveDirection.Normalize();
 
         // 2. 重力与贴地核心逻辑
@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
 
         // 5. 视角旋转
-        float mouseX = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
-        transform.Rotate(Vector3.up * mouseX);
+        //float mouseX = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
+        //transform.Rotate(Vector3.up * mouseX);
     }
 }

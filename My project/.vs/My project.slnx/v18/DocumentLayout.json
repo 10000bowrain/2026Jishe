@@ -3,45 +3,32 @@
   "WorkspaceRootPath": "D:\\Programming\\Github\\jishe\\My project\\",
   "Documents": [
     {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\dialoguecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\dialoguecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\dialogueuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\dialogueuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\scenedialogtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\scenedialogtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\dialoguedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\dialoguedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\dialogueline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\dialogueline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\detectgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\dialoguedata\\roleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguedata\\roleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\game\\fishgame\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\fishgame\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> origin/Frost2
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\game\\puzzle\\scenejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\puzzle\\scenejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\collectionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,147 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DialogueUIController.cs",
-              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueUIController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\DialogueUIController.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueUIController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\DialogueUIController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T12:21:34.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UIControler.cs",
-              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\UIControler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIControler.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\UIControler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIControler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA2wBcBAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T12:03:06.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SceneDialogTrigger.cs",
-              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\SceneDialogTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\SceneDialogTrigger.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\SceneDialogTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\SceneDialogTrigger.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T11:58:33.354Z",
-              "EditorCaption": ""
-=======
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
->>>>>>> origin/Frost2
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-<<<<<<< HEAD
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAABAwAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T11:57:51.658Z",
-=======
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DialogueDataSO.cs",
-              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueDataSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\DialogueDataSO.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueDataSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\DialogueDataSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\FishGame\\Event.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA2wBsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T14:04:50.788Z",
->>>>>>> origin/Frost2
+              "WhenOpened": "2026-04-14T12:20:09.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SceneJump.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\SceneJump.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Puzzle\\SceneJump.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\SceneJump.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Puzzle\\SceneJump.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:29:55.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CollectionEvent.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CollectionEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CollectionEvent.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CollectionEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CollectionEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:28:44.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetectGame.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DetectGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectGame.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DetectGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:27:45.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Score.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Score.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Score.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Score.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Score.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:27:37.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-<<<<<<< HEAD
-              "Title": "DialogueCore.cs",
-              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueCore.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\DialogueCore.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueCore.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\DialogueCore.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAswE8AAAAkAAAAAAAAAA==",
+              "Title": "UIControler.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\UIControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIControler.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\UIControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIControler.cs",
+              "ViewState": "AgIAAPgBAAAAAAAAAMBBwOYBAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T11:18:31.742Z",
-=======
-              "Title": "DialogueLine.cs",
-              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueLine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\DialogueLine.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\DialogueLine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\DialogueLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T14:04:23.893Z",
->>>>>>> origin/Frost2
+              "WhenOpened": "2026-04-14T07:36:48.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 0,
-=======
-              "DocumentIndex": 2,
-              "Title": "RoleInfo.cs",
-              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\RoleInfo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueData\\RoleInfo.cs",
-              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DialogueData\\RoleInfo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueData\\RoleInfo.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA1wBUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T14:03:48.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
->>>>>>> origin/Frost2
               "Title": "CatUbteract.cs",
               "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CatUbteract.cs",
               "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs",
               "RelativeToolTip": "Assets\\Scripts\\CatUbteract.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAACwAAAAAAAAAAAAcwDUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAN0AAAAAAAAAAAA/wOsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T10:19:42.128Z",
-=======
-              "ViewState": "AgIAAA4AAAAAAAAAAAA2wBYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T15:08:05.918Z",
->>>>>>> origin/Frost2
+              "WhenOpened": "2026-04-14T07:36:48.611Z",
               "EditorCaption": ""
             }
           ]

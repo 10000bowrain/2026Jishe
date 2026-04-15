@@ -26,8 +26,8 @@ ExportedObj/
 *.VC.VC.opendb
 
 # Unity3D generated meta files (optional: usually you DO want to track these!)
-# �����ʹ�õ��� Unity 2019+ �������� "Visible Meta Files"��Ĭ�ϣ����벻Ҫ���� .meta �ļ���
-# �������ﲻ���� *.meta
+#      ʹ õ    Unity 2019+          "Visible Meta Files"  Ĭ ϣ    벻Ҫ     .meta  ļ   
+#        ﲻ     *.meta
 
 # Builds
 *.apk
@@ -91,3 +91,4 @@ bfg-1.15.0.jar
 
 My project/Assets/Models/晋祠.fbx
 >>>>>>> origin/新main
+My project.zip

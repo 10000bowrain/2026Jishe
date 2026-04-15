@@ -20,6 +20,6 @@ public class DetectGame : MonoBehaviour
     void SaveData()
     {
         // 通过单例访问，存储数据
-        Score.CollectScore += 1;
+        //Score.CollectScore += 1;
     }
 }

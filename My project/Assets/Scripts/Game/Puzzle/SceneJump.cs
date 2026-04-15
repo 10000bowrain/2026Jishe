@@ -9,6 +9,10 @@ public class SceneJump : MonoBehaviour
 
     public void Scene()
     { 
-            SceneManager.LoadScene(nextSceneName);
+        if(gameObject.scene.name == "Fish")
+        {
+            
+        }
+        SceneManager.LoadScene(nextSceneName);
     }
 }

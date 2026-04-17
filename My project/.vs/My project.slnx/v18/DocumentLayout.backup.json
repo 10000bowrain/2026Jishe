@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Programming\\Github\\jishe\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\detectgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\detectgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\game\\fishgame\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DetectGame.cs",
               "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\DetectGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DetectGame.cs",
@@ -99,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Score.cs",
               "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Score.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Score.cs",
@@ -107,30 +107,31 @@
               "RelativeToolTip": "Assets\\Scripts\\Score.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T11:27:37.373Z"
+              "WhenOpened": "2026-04-14T11:27:37.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UIControler.cs",
               "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\UIControler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIControler.cs",
               "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\UIControler.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIControler.cs",
-              "ViewState": "AgIAALsBAAAAAAAAAIA9wMABAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAPgBAAAAAAAAAMBBwOYBAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T07:36:48.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CatUbteract.cs",
               "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CatUbteract.cs",
               "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs",
               "RelativeToolTip": "Assets\\Scripts\\CatUbteract.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAvwFsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAN0AAAAAAAAAAAA/wOsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T07:36:48.611Z",
               "EditorCaption": ""

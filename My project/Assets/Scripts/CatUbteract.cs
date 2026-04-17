@@ -113,17 +113,17 @@ public class CatDistanceCheck : MonoBehaviour
                 if (gameObject.scene.name == "合并成功-晋祠")
                 {
                     UIControler.bridge1fishes[1] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 2);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge2fishes[1] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 2);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge3fishes[1] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 2);
                 }
             }
 
@@ -137,17 +137,17 @@ public class CatDistanceCheck : MonoBehaviour
                 if (gameObject.scene.name == "合并成功-晋祠")
                 {
                     UIControler.bridge1fishes[2] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 3);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge2fishes[2] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 3);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge3fishes[2] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 3);
                 }
             }
 
@@ -161,17 +161,17 @@ public class CatDistanceCheck : MonoBehaviour
                 if (gameObject.scene.name == "合并成功-晋祠")
                 {
                     UIControler.bridge1fishes[3] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 4);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge2fishes[3] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 4);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge3fishes[3] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 4);
                 }
             }
 
@@ -185,17 +185,17 @@ public class CatDistanceCheck : MonoBehaviour
                 if (gameObject.scene.name == "合并成功-晋祠")
                 {
                     UIControler.bridge1fishes[4] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 5);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge2fishes[4] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 5);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge3fishes[4] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 5);
                 }
             }
 
@@ -209,17 +209,17 @@ public class CatDistanceCheck : MonoBehaviour
                 if (gameObject.scene.name == "合并成功-晋祠")
                 {
                     UIControler.bridge1fishes[5] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 6);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge2fishes[5] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 6);
                 }
                 else if (gameObject.scene.name == "")
                 {
                     UIControler.bridge3fishes[5] = true;
-                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 1);
+                    GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 6);
                 }
             }
 

@@ -89,6 +89,18 @@ public class UIControler : MonoBehaviour
 
     #region 选关/桥界面
 
+    public static void SwitchBridgeOpen()
+    {
+        Show(GameObject.Find("SwitchBridgePanel"));
+        Time.timeScale = 0;
+    }
+
+    public static void SwichBridgeClose()
+    {
+        Hide(GameObject.Find("SwitchBridgePanel"));
+        Time.timeScale = 1;
+    }
+
     public static void EnterYuZhaoFeiLiang()
     {
         SceneFade.Instance.LoadScene("合并成功-晋祠");
@@ -297,14 +309,14 @@ public class UIControler : MonoBehaviour
         Hide(GameObject.Find("Bridge2Panel"));
         Hide(GameObject.Find("Bridge3Panel"));
     }
-    
+
     public static void Bridge2FishOpen()
     {
         Show(GameObject.Find("Bridge2Panel"));
         Hide(GameObject.Find("Bridge1Panel"));
         Hide(GameObject.Find("Bridge3Panel"));
     }
-    
+
     public static void Bridge3FishOpen()
     {
         Show(GameObject.Find("Bridge3Panel"));
@@ -356,7 +368,7 @@ public class UIControler : MonoBehaviour
                     ColorBlock colorBlock = btn.colors;
                     if (b == 1)
                     {
-                        if (bridge1fishes[f-1])
+                        if (bridge1fishes[f - 1])
                         {
                             colorBlock.normalColor = new Color(r: 1f, g: 1f, b: 1f, a: 1f);
                         }
@@ -365,7 +377,7 @@ public class UIControler : MonoBehaviour
                             colorBlock.normalColor = new Color(r: 0.5f, g: 0.5f, b: 0.5f, a: 1f);
                         }
                     }
-                    else if(b == 2)
+                    else if (b == 2)
                     {
                         if (bridge2fishes[f - 1])
                         {
@@ -376,7 +388,7 @@ public class UIControler : MonoBehaviour
                             colorBlock.normalColor = new Color(r: 0.5f, g: 0.5f, b: 0.5f, a: 1f);
                         }
                     }
-                    else if(b == 3)
+                    else if (b == 3)
                     {
                         if (bridge3fishes[f - 1])
                         {
@@ -448,19 +460,23 @@ public class UIControler : MonoBehaviour
     {
         Show(GameObject.Find("TriggersPanel"));
         Image triggerImage = GameObject.Find("TriggersPanel")?.transform.Find("KnowledgeImage").GetComponent<Image>();
+        TMP_Text triggerText = GameObject.Find("TriggersPanel")?.transform.Find("KnowledgeText").GetComponent<TMP_Text>();
         //Debug.Log($"{bridgeNum}, {fishNum}");
-        Debug.Log($"bridge1Image[fishNum - 1] == null is {bridge1Image[fishNum - 1] == null}");
-        //Debug.Log($"triggerImage == null is {triggerImage == null}");
-        switch(bridgeNum)
+        //Debug.Log($"bridge1Image[fishNum - 1] == null is {bridge1Image[fishNum - 1] == null}");
+        //Debug.Log($"triggerText == null is {triggerText == null}");
+        switch (bridgeNum)
         {
             case 1:
                 triggerImage.sprite = bridge1Image[fishNum - 1];
+                triggerText.text = bridge1Text[fishNum - 1];
                 break;
             case 2:
                 triggerImage.sprite = bridge2Image[fishNum - 1];
+                triggerText.text = bridge2Text[fishNum - 1];
                 break;
             case 3:
                 triggerImage.sprite = bridge3Image[fishNum - 1];
+                triggerText.text = bridge3Text[fishNum - 1];
                 break;
         }
         Time.timeScale = 0;
@@ -475,19 +491,33 @@ public class UIControler : MonoBehaviour
     #endregion
 
     #region 游戏前界面
-    
+
+    public static void EnterGameOpen()
+    {
+        Hide(GameObject.Find("EnterGamePanel"));
+        Time.timeScale = 0;
+    }
+
     public static void YesGame()
     {
         Hide(GameObject.Find("EnterGamePanel"));
-        //SceneFade.Instance.LoadScene("SwitchScene");
+        Time.timeScale = 1;
     }
-    
-    public static void NoGame()
+
+    public static void NoGameTOBridge1()
     {
-        SceneFade.Instance.LoadScene("SwitchScene");
+        SceneFade.Instance.LoadScene("合并成功-晋祠");
     }
 
+    public static void NoGameTOBridge2()
+    {
+        // SceneFade.Instance.LoadScene("合并成功-晋祠");
+    }
 
+    public static void NoGameTOBridge3()
+    {
+        // SceneFade.Instance.LoadScene("合并成功-晋祠");
+    }
 
     #endregion
 
@@ -518,9 +548,17 @@ public class UIControler : MonoBehaviour
         {
             TriggerClose();
         }
-        if(GameObject.Find("EnterGamePanel") != null)
+        if (GameObject.Find("EnterGamePanel") != null)
         {
             Hide(GameObject.Find("EnterGamePanel"));
+        }
+        if (GameObject.Find("SwitchBridgePanel") != null && gameObject.scene.name != "SwitchBridgePanel")
+        {
+            SwichBridgeClose();
+        }
+        if (gameObject.scene.name == "SwitchScene")
+        {
+            SwitchBridgeOpen();
         }
         if (gameObject.scene.name == "SwitchScene" || gameObject.scene.name == "合并成功-晋祠")
         {

@@ -70,7 +70,7 @@ public class CatDistanceCheck : MonoBehaviour
                         dialogueCore.StartDialogue(catHalfDialogueData);
                     }
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
 
                 }
@@ -91,7 +91,7 @@ public class CatDistanceCheck : MonoBehaviour
                     UIControler.bridge1fishes[0] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 1);
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     UIControler.bridge2fishes[0] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 1);
@@ -115,7 +115,7 @@ public class CatDistanceCheck : MonoBehaviour
                     UIControler.bridge1fishes[1] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 2);
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     UIControler.bridge2fishes[1] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 2);
@@ -138,7 +138,7 @@ public class CatDistanceCheck : MonoBehaviour
                     UIControler.bridge1fishes[2] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 3);
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     UIControler.bridge2fishes[2] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 3);
@@ -162,7 +162,7 @@ public class CatDistanceCheck : MonoBehaviour
                     UIControler.bridge1fishes[3] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 4);
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     UIControler.bridge2fishes[3] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 4);
@@ -186,7 +186,7 @@ public class CatDistanceCheck : MonoBehaviour
                     UIControler.bridge1fishes[4] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 5);
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     UIControler.bridge2fishes[4] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 5);
@@ -210,7 +210,7 @@ public class CatDistanceCheck : MonoBehaviour
                     UIControler.bridge1fishes[5] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(1, 6);
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     UIControler.bridge2fishes[5] = true;
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(2, 6);
@@ -233,7 +233,7 @@ public class CatDistanceCheck : MonoBehaviour
                 {
                     SceneFade.Instance.LoadScene("Fish");
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     SceneFade.Instance.LoadScene("Puzzle");
                 }
@@ -253,7 +253,7 @@ public class CatDistanceCheck : MonoBehaviour
                 {
                     SceneFade.Instance.LoadScene("Fish");
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     SceneFade.Instance.LoadScene("Puzzle");
                 }
@@ -273,7 +273,7 @@ public class CatDistanceCheck : MonoBehaviour
                 {
                     SceneFade.Instance.LoadScene("Fish");
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     SceneFade.Instance.LoadScene("Puzzle");
                 }
@@ -293,7 +293,7 @@ public class CatDistanceCheck : MonoBehaviour
                 {
                     // dialogueCore.StartDialogue(catStartDialogueData);
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                     // dialogueCore.StartDialogue(catStartDialogueData);
 
@@ -314,7 +314,7 @@ public class CatDistanceCheck : MonoBehaviour
                 if (gameObject.scene.name == "合并成功-晋祠")
                 {
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                 }
                 else if (gameObject.scene.name == "")
@@ -331,7 +331,7 @@ public class CatDistanceCheck : MonoBehaviour
                 if (gameObject.scene.name == "合并成功-晋祠")
                 {
                 }
-                else if (gameObject.scene.name == "")
+                else if (gameObject.scene.name == "测试-赵州桥")
                 {
                 }
                 else if (gameObject.scene.name == "")

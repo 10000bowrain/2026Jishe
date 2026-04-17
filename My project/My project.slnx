@@ -8,12 +8,15 @@
   <Project Path="Unity.RenderPipelines.Core.Runtime.csproj" />
   <Project Path="MerryYellow.CodeAssist.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Unity.2D.Sprite.Editor.csproj" />
+  <Project Path="Unity.BuildReportInspector.Editor.Mobile.csproj" />
   <Project Path="UnityEditor.TestRunner.csproj" />
   <Project Path="UnityEngine.TestRunner.csproj" />
   <Project Path="UnityEngine.UI.csproj" />
   <Project Path="Unity.Searcher.Editor.csproj" />
   <Project Path="Unity.TextMeshPro.csproj" />
   <Project Path="Unity.VisualStudio.Editor.csproj" />
+  <Project Path="Unity.BuildReportInspector.Editor.csproj" />
   <Project Path="Unity.InputSystem.TestFramework.csproj" />
   <Project Path="Unity.InputSystem.ForUI.csproj" />
   <Project Path="Unity.InputSystem.DocCodeSamples.csproj" />

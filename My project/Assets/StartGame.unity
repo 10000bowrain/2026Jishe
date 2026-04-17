@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 333cb098535ebba4590a9ee2691eea94, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -718,6 +718,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infoText: {fileID: 0}
+  bridge1Text:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  bridge2Text:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  bridge3Text:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  bridge1Image:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bridge2Image:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bridge3Image:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &515479982
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,7 +1148,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   addMusicHere:
-  - {fileID: 8300000, guid: 47f7d3bb548f7cf4e91664f8e1a13e8d, type: 3}
+  - {fileID: 8300000, guid: 9d30f6d91f666e340bca1c1b081d5e14, type: 3}
   - {fileID: 8300000, guid: 47f7d3bb548f7cf4e91664f8e1a13e8d, type: 3}
   - {fileID: 8300000, guid: 47f7d3bb548f7cf4e91664f8e1a13e8d, type: 3}
   - {fileID: 8300000, guid: 47f7d3bb548f7cf4e91664f8e1a13e8d, type: 3}

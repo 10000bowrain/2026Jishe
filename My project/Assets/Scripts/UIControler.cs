@@ -132,8 +132,7 @@ public class UIControler : MonoBehaviour
 
     public static void EnterZhaoZhouQiao()
     {
-        //SceneFade.Instance.LoadScene("合并成功-晋祠");
-
+        SceneFade.Instance.LoadScene("测试-赵州桥");
     }
 
     public static void EnterGuangJiQiao()
@@ -537,7 +536,7 @@ public class UIControler : MonoBehaviour
 
     public static void NoGameTOBridge2()
     {
-        // SceneFade.Instance.LoadScene("合并成功-晋祠");
+         SceneFade.Instance.LoadScene("测试-赵州桥");
     }
 
     public static void NoGameTOBridge3()

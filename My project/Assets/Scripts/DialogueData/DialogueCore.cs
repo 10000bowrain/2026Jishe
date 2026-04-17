@@ -44,11 +44,13 @@ public class DialogueCore : MonoBehaviour
         // 冻结玩家输入和移动
         if (playerInput != null)
         {
-            playerInput.enabled = false; // 禁用玩家输入
+            // playerInput.enabled = false; // 禁用玩家输入
+            //Time.timeScale = 0;
         }
         if (playerMove != null)
         {
-            playerMove.enabled = false; // 禁用玩家移动（若用Rigidbody，改为playerMove.velocity = Vector3.zero; playerMove.isKinematic = true;）
+            // playerMove.enabled = false; // 禁用玩家移动（若用Rigidbody，改为playerMove.velocity = Vector3.zero; playerMove.isKinematic = true;）
+            //Time.timeScale = 0;
         }
         // Debug.Log("退出StartDialogue方法");
 
@@ -79,11 +81,13 @@ public class DialogueCore : MonoBehaviour
         currentDialogueData = null;
         uiController.CloseDialogueUI();
 
-        // 恢复玩家输入和移动
-        if (playerInput != null)
-            playerInput.enabled = true;
-        if (playerMove != null)
-            playerMove.enabled = true; // 若用Rigidbody，改为playerMove.isKinematic = false;
+        //// 恢复玩家输入和移动
+        //if (playerInput != null)
+        //    //playerInput.enabled = true;
+        //    //Time.timeScale = 1;
+        //if (playerMove != null)
+        //    //playerMove.enabled = true; // 若用Rigidbody，改为playerMove.isKinematic = false;
+        //    //Time.timeScale = 1;
     }
 
     // 跳过当前对话（绑定跳过按钮）

@@ -9,6 +9,7 @@ using UnityEngine.UIElements;
 using UnityEngine.UI;
 using static UnityEngine.InputSystem.InputSettings;
 using Image = UnityEngine.UI.Image;
+using System.Data;
 
 
 public class UIControler : MonoBehaviour
@@ -48,15 +49,18 @@ public class UIControler : MonoBehaviour
     };
 
     // 小鱼干收集情况
-    public static int CollectScore;
+    public static int fish1count;
+    public static int fish2count;
+    public static int fish3count;
+    public static int fishallcount;
     public static bool[] bridge1fishes = { false, false, false, false, false, false, false, false, false };
     public static bool[] bridge2fishes = { false, false, false, false, false, false, false, false, false };
     public static bool[] bridge3fishes = { false, false, false, false, false, false, false, false, false };
 
 
-
-
     #endregion
+
+
 
     #region 基本函数
     //隐藏ui，在弹出设置面板，知识面板时用到
@@ -86,6 +90,26 @@ public class UIControler : MonoBehaviour
         //SceneManager.LoadScene("合并成功-晋祠");
         SceneFade.Instance.LoadScene("SwitchScene");
     }
+
+    // 鱼干收集计数
+    public static void FishCounter()
+    {
+        fish1count = fish2count = fish3count = 0;
+        foreach (bool val in bridge1fishes)
+        {
+            fish1count += val ? 1 : 0;
+        }
+        foreach (bool val in bridge2fishes)
+        {
+            fish2count += val ? 1 : 0;
+        }
+        foreach (bool val in bridge3fishes)
+        {
+            fish3count += val ? 1 : 0;
+        }
+        fishallcount = fish1count + fish2count + fish3count;
+    }
+
 
     #region 选关/桥界面
 
@@ -464,6 +488,7 @@ public class UIControler : MonoBehaviour
         //Debug.Log($"{bridgeNum}, {fishNum}");
         //Debug.Log($"bridge1Image[fishNum - 1] == null is {bridge1Image[fishNum - 1] == null}");
         //Debug.Log($"triggerText == null is {triggerText == null}");
+
         switch (bridgeNum)
         {
             case 1:
@@ -486,6 +511,7 @@ public class UIControler : MonoBehaviour
     {
         Hide(GameObject.Find("TriggersPanel"));
         Time.timeScale = 1;
+
     }
 
     #endregion

@@ -2,7 +2,7 @@
 - Project name: My project
 - Unity version: Unity 2022.3.62f2c1
 - Active game object:
-  - Name: Player (1)
+  - Name: UIControler
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

@@ -126,7 +126,6 @@ public class CatDistanceCheck : MonoBehaviour
                     GameObject.Find("UIControler").GetComponent<UIControler>().TriggerOpen(3, 2);
                 }
             }
-
         }
         else if (gameTriggersDistance[2] < triggerDistance)
         {
@@ -233,7 +232,6 @@ public class CatDistanceCheck : MonoBehaviour
                 if (gameObject.scene.name == "合并成功-晋祠")
                 {
                     SceneFade.Instance.LoadScene("Fish");
-
                 }
                 else if (gameObject.scene.name == "")
                 {
@@ -242,6 +240,102 @@ public class CatDistanceCheck : MonoBehaviour
                 else if (gameObject.scene.name == "")
                 {
                     SceneFade.Instance.LoadScene("Question");
+                }
+            }
+        }
+        else if (gameTriggersDistance[7] < triggerDistance)
+        {
+            tipText.text = "按E进行交互";
+            tipText.enabled = true;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (gameObject.scene.name == "合并成功-晋祠")
+                {
+                    SceneFade.Instance.LoadScene("Fish");
+                }
+                else if (gameObject.scene.name == "")
+                {
+                    SceneFade.Instance.LoadScene("Puzzle");
+                }
+                else if (gameObject.scene.name == "")
+                {
+                    SceneFade.Instance.LoadScene("Question");
+                }
+            }
+        }
+        else if (gameTriggersDistance[8] < triggerDistance)
+        {
+            tipText.text = "按E进行交互";
+            tipText.enabled = true;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (gameObject.scene.name == "合并成功-晋祠")
+                {
+                    SceneFade.Instance.LoadScene("Fish");
+                }
+                else if (gameObject.scene.name == "")
+                {
+                    SceneFade.Instance.LoadScene("Puzzle");
+                }
+                else if (gameObject.scene.name == "")
+                {
+                    SceneFade.Instance.LoadScene("Question");
+                }
+            }
+        }
+        else if (gameTriggersDistance[9] < triggerDistance)
+        {
+            tipText.text = "按E进行交互";
+            tipText.enabled = true;
+            if (Input.GetKeyDown(KeyCode.E) && dialogueCore != null && !dialogueCore.isDialoguePlaying)
+            {
+                if (gameObject.scene.name == "合并成功-晋祠")
+                {
+                    // dialogueCore.StartDialogue(catStartDialogueData);
+                }
+                else if (gameObject.scene.name == "")
+                {
+                    // dialogueCore.StartDialogue(catStartDialogueData);
+
+                }
+                else if (gameObject.scene.name == "")
+                {
+                    // dialogueCore.StartDialogue(catStartDialogueData);
+
+                }
+            }
+        }
+        else if (gameTriggersDistance[10] < triggerDistance)
+        {
+            tipText.text = "按E进行交互";
+            tipText.enabled = true;
+            if (Input.GetKeyDown(KeyCode.E) && dialogueCore != null && !dialogueCore.isDialoguePlaying)
+            {
+                if (gameObject.scene.name == "合并成功-晋祠")
+                {
+                }
+                else if (gameObject.scene.name == "")
+                {
+                }
+                else if (gameObject.scene.name == "")
+                {
+                }
+            }
+        }
+        else if (gameTriggersDistance[11] < triggerDistance)
+        {
+            tipText.text = "按E进行交互";
+            tipText.enabled = true;
+            if (Input.GetKeyDown(KeyCode.E) && dialogueCore != null && !dialogueCore.isDialoguePlaying)
+            {
+                if (gameObject.scene.name == "合并成功-晋祠")
+                {
+                }
+                else if (gameObject.scene.name == "")
+                {
+                }
+                else if (gameObject.scene.name == "")
+                {
                 }
             }
         }

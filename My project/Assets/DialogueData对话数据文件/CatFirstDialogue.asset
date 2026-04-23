@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bd82d48ffa5ba4d9a83cc1c5af521b, type: 3}
+  m_Name: CatFirstDialogue
+  m_EditorClassIdentifier: 
+  dialogueTitle: "\u7B2C\u4E00\u6B21\u548C\u732B\u5BF9\u8BDD"
+  dialogueLines:
+  - dialogueContent: "\u55B5\u2026\u2026\u4F60\u8FD8\u597D\u5417\uFF1F\u521A\u8FDB\u5165VR\uFF0C\u591A\u591A\u5C11\u5C11\u4F1A\u513F\u6709\u70B9\u6655\u3002"
+    speaker:
+      roleName: "\u5C0F\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u5BF9\u4E86\uFF0C\u6211\u662F\u4F60\u7684ai\u5411\u5BFC\u55B5\uFF0C\u592A\u7406\u3002\u4E0D\u8FC7\u4F60\u4E5F\u53EF\u4EE5\u53EB\u6211\u5446\u68A8~"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u5148\u522B\u6025\u7740\u8D70\u3002\u7AD9\u7740\u4E0D\u52A8\uFF0C\u7F13\u4E00\u7F13\u3002\u5BF9\uFF0C\u5C31\u662F\u8FD9\u6837\u3002"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u597D\u4E00\u70B9\u4E86\u5427\uFF1F\u73B0\u5728\u8BD5\u7740\u7528WASD\u8D70\u8DEF\u3002\u5F80\u524D\u8D70\u4E24\u6B65\uFF0C\u627E\u627E\u611F\u89C9\u3002"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u5BF9\u4E86\uFF0C\u5C31\u662F\u8FD9\u6837\u3002\u770B\u5230\u6865\u8FB9\u90A3\u4E9B\u5FAE\u5FAE\u53D1\u5149\u7684\u5730\u65B9\u4E86\u5417\uFF1F\u8D70\u8FC7\u53BB\u6309E\uFF0C\u5C31\u80FD\u67E5\u770B\u5E76\u4E14\u8DDF\u5B83\u4EEC\u4E92\u52A8\u5566\uFF01"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u54B1\u4EEC\u7684\u4EFB\u52A1\u662F\u6536\u96C69\u6761\u5C0F\u9C7C\u5E72\uFF0C\u6512\u591F\u4E86\u624D\u80FD\u8BA9\u6211\u5403\u9971\u2026\u2026"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u4E0D\u5BF9\uFF0C\u662F\u6512\u591F\u4E86\u624D\u80FD\u8BC1\u660E\u4F60\u771F\u7684\u542C\u61C2\u4E86\u8FD9\u5EA7\u6865\uFF0C\u771F\u6B63\u5730\u6865\u89C1\u4E2D\u56FD\u3002"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u8FD9\u5EA7\u53E4\u6865\u85CF\u7740\u6570\u4E0D\u6E05\u7684\u79D8\u5BC6\uFF0C\u6709\u4E9B\u79D8\u5BC6\u80CC\u540E\u4F1A\u85CF\u7740\u4E00\u6761\u5C0F\u9C7C\u5E72\u3002"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u4F60\u627E\u5230\u4E00\u6761\uFF0C\u6211\u5C31\u5E2E\u4F60\u8BB0\uFF08\u5403\uFF09\u4E0B\u4E00\u6761\u5566\uFF5E\u600E\u4E48\u6837\uFF1F\u54B1\u4FE9\u662F\u4E0D\u662F\u5F88\u6709\u9ED8\u5951\u3002"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0
+  - dialogueContent: "\u6211\u5C31\u5728\u8FD9\u7B49\u7740\u4F60~\u55B5~\u8BE5\u5348\u7761\u4E86\u3002\u3002\u3002\u3002\u547C\u565C\u3002\u3002"
+    speaker:
+      roleName: "\u732B"
+      roleHead: {fileID: 21300000, guid: 2b4999899f67e494f91cfb44279d261d, type: 3}
+      rolePosition: 1
+    isMonologue: 0

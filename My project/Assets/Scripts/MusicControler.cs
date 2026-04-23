@@ -1,0 +1,341 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MusicControler : MonoBehaviour
+{
+    public static MusicControler Instance { get; private set; }
+
+    [Header("不要把任何对象拖到这里")]
+    public AudioSource[] musicList = new AudioSource[musicNum];
+
+    [Header("把音乐文件拖到这里")]
+    public AudioClip[] addMusicHere = new AudioClip[musicNum];
+
+    [Header("全部音乐音效的数量")]
+    public static int musicNum = 10;
+
+    public static bool hasPlayed = false;
+
+    // 公共常量：默认音乐音量/淡入淡出相关常量
+    public const float DefaultVolume = 0.5f;
+    private const float DefaultFadeSpeed = 3f;
+    private const float VolumeEpsilon = 0.01f;
+
+    // 淡入淡出相关
+    private float targetVolume = DefaultVolume;
+    private float fadeSpeed = DefaultFadeSpeed;
+    private int fadingMusicIndex = -1;
+    private float fadeTimer = 0f;
+    private bool isFadingIn = false;
+    private bool isFadingOut = false;
+
+    // 当前正在播放的音乐索引（静态，跨场景持久化）
+    private static int _currentPlayingIndex = -1;
+    public static int currentPlayingIndex
+    {
+        get => _currentPlayingIndex;
+        private set => _currentPlayingIndex = value;
+    }
+
+    // 静音状态
+    private bool isMuted = false;
+
+    // 返回主音乐（前四首）的音量
+    private float mainVolume = DefaultVolume;
+    public float GetMainVolume()
+    {
+        return mainVolume;
+    }
+
+    // 设置主音乐（前四首）音量，并立即应用
+    public void SetMainVolume(float volume)
+    {
+        mainVolume = Mathf.Clamp01(volume);
+        if (musicList == null) return;
+        int limit = Mathf.Min(4, musicNum);
+        for (int i = 0; i < limit; i++)
+        {
+            // 受静音影响
+            musicList[i].volume = isMuted ? 0f : mainVolume;
+        }
+
+        // 如果当前目标音量参与淡入/淡出，更新 targetVolume
+        if (currentPlayingIndex >= 0 && currentPlayingIndex < limit)
+        {
+            targetVolume = isMuted ? 0f : mainVolume;
+        }
+    }
+
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
+    void Start()
+    {
+        // 初始化所有音乐组件
+        for (int i = 0; i < musicNum; i++)
+        {
+            musicList[i] = gameObject.AddComponent<AudioSource>();
+            musicList[i].clip = addMusicHere[i];
+            musicList[i].volume = DefaultVolume;
+        }
+
+        for (int i = 0; i < 4; i++)
+        {
+            musicList[i].loop = true;
+        }
+
+        if (!hasPlayed)
+        {
+            currentPlayingIndex = 0;
+            musicList[0].volume = isMuted ? 0f : DefaultVolume;
+            musicList[0].Play();
+            hasPlayed = true;
+        }
+        else
+        {
+            if (currentPlayingIndex >= 0 && currentPlayingIndex < musicNum)
+            {
+                musicList[currentPlayingIndex].volume = isMuted ? 0f : DefaultVolume;
+                musicList[currentPlayingIndex].Play();
+            }
+        }
+    }
+
+    void Update()
+    {
+        // 处理淡入
+        if (isFadingIn && fadingMusicIndex >= 0 && fadingMusicIndex < musicNum)
+        {
+            fadeTimer += Time.unscaledDeltaTime;
+            float newVolume = Mathf.Lerp(0f, targetVolume, fadeTimer * fadeSpeed);
+            newVolume = Mathf.Clamp(newVolume, 0f, targetVolume);
+            musicList[fadingMusicIndex].volume = newVolume;
+
+            if (newVolume >= targetVolume - VolumeEpsilon)
+            {
+                musicList[fadingMusicIndex].volume = targetVolume;
+                isFadingIn = false;
+                fadingMusicIndex = -1;
+                fadeTimer = 0f;
+            }
+        }
+
+        // 处理淡出
+        if (isFadingOut && fadingMusicIndex >= 0 && fadingMusicIndex < musicNum)
+        {
+            fadeTimer += Time.unscaledDeltaTime;
+            float newVolume = Mathf.Lerp(targetVolume, 0f, fadeTimer * fadeSpeed);
+            newVolume = Mathf.Clamp(newVolume, 0f, targetVolume);
+            musicList[fadingMusicIndex].volume = newVolume;
+
+            if (newVolume <= VolumeEpsilon)
+            {
+                musicList[fadingMusicIndex].volume = 0f;
+                musicList[fadingMusicIndex].Stop();
+                isFadingOut = false;
+                fadingMusicIndex = -1;
+                fadeTimer = 0f;
+            }
+        }
+    }
+
+    // 判断场景类型
+    private SceneType GetSceneType(string sceneName)
+    {
+        // 主界面/漫画/选关
+        if (sceneName == "0StartGame主界面" || sceneName == "SwitchScene选关界面" ||
+            sceneName == "Cartoon1Scene漫画1" || sceneName == "Cartoon2Scene漫画2" ||
+            sceneName == "Cartoon3Scene漫画3" || sceneName == "LoaddingScene" ||
+            sceneName == "LoadingScene")
+            return SceneType.MainMenu;
+
+        // 晋祠
+        if (sceneName == "1-晋祠鱼沼飞梁")
+            return SceneType.JinCi;
+
+        // 赵州桥
+        if (sceneName == "2-赵州桥")
+            return SceneType.ZhaoZhouQiao;
+
+        // 广济桥
+        if (sceneName == "3-广济桥")
+            return SceneType.GuangJiQiao;
+
+        // 小游戏场景
+        if (sceneName == "Fish" || sceneName == "Puzzle" || sceneName == "Question" ||
+            sceneName == "Puzzle 1" || sceneName == "Question 1" ||
+            sceneName == "Puzzle 2" || sceneName == "Question 2")
+            return SceneType.MiniGame;
+
+        // 其他未知场景：当作小游戏处理，保持当前
+        return SceneType.MiniGame;
+    }
+
+    private enum SceneType
+    {
+        MainMenu,    // BGM 0
+        JinCi,       // BGM 1
+        ZhaoZhouQiao, // BGM 2
+        GuangJiQiao, // BGM 3
+        MiniGame     // 保持当前
+    }
+
+    private int GetMusicIndexForScene(string sceneName)
+    {
+        SceneType type = GetSceneType(sceneName);
+        switch (type)
+        {
+            case SceneType.MainMenu: return 0;
+            case SceneType.JinCi: return 1;
+            case SceneType.ZhaoZhouQiao: return 2;
+            case SceneType.GuangJiQiao: return 3;
+            case SceneType.MiniGame: return -1;
+            default: return 0;
+        }
+    }
+
+    // 获取淡出需要的时间
+    public float GetFadeOutDuration()
+    {
+        return 1f / fadeSpeed;
+    }
+
+    // SceneFade调用：淡出当前播放的音乐
+    public void FadeOutCurrent()
+    {
+        if (currentPlayingIndex < 0 || currentPlayingIndex >= musicNum) return;
+        if (isFadingOut || isFadingIn) return; // 已经在淡出/淡入中，不要重复
+
+        fadingMusicIndex = currentPlayingIndex;
+        fadeTimer = 0f;
+        targetVolume = DefaultVolume;
+        isFadingOut = true;
+    }
+
+    // SceneFade调用：判断是否应该跳过淡出（同一BGM的场景切换）
+    public bool ShouldSkipFadeOut(string targetScene)
+    {
+        int targetIndex = GetMusicIndexForScene(targetScene);
+        // 小游戏或同一BGM，不淡出
+        if (targetIndex == -1 || targetIndex == currentPlayingIndex)
+            return true;
+        return false;
+    }
+
+    // SceneFade调用：根据目标场景淡入对应音乐
+    public void FadeInForScene(string sceneName)
+    {
+        int targetIndex = GetMusicIndexForScene(sceneName);
+
+        // 小游戏场景：保持当前音乐，直接恢复播放
+        if (targetIndex == -1)
+        {
+            if (currentPlayingIndex >= 0 && currentPlayingIndex < musicNum)
+            {
+                if (!musicList[currentPlayingIndex].isPlaying)
+                {
+                    musicList[currentPlayingIndex].volume = isMuted ? 0f : DefaultVolume;
+                    musicList[currentPlayingIndex].Play();
+                }
+                else
+                {
+                    // 如果在播放但被静音了，恢复音量
+                    musicList[currentPlayingIndex].volume = isMuted ? 0f : DefaultVolume;
+                }
+            }
+            return;
+        }
+
+        // 同一首音乐，不需要切换
+        if (targetIndex == currentPlayingIndex)
+        {
+            if (currentPlayingIndex >= 0 && currentPlayingIndex < musicNum)
+            {
+                musicList[currentPlayingIndex].volume = isMuted ? 0f : DefaultVolume;
+                if (!musicList[currentPlayingIndex].isPlaying)
+                    musicList[currentPlayingIndex].Play();
+            }
+            return;
+        }
+
+        // 切换到新音乐：先停止其他，播放目标
+        for (int i = 0; i < musicNum; i++)
+        {
+            if (i != targetIndex)
+            {
+                musicList[i].Stop();
+                musicList[i].volume = 0f;
+            }
+        }
+
+        fadingMusicIndex = targetIndex;
+        fadeTimer = 0f;
+        targetVolume = isMuted ? 0f : DefaultVolume;
+        musicList[targetIndex].volume = 0f;
+        musicList[targetIndex].Play();
+        currentPlayingIndex = targetIndex;
+        isFadingIn = true;
+        isFadingOut = false;
+    }
+
+    public bool IsFading()
+    {
+        return isFadingIn || isFadingOut;
+    }
+
+    // 设置开关：直接静音/恢复
+    public void SetMusicEnabled(bool enabled)
+    {
+        isMuted = !enabled;
+
+        for (int i = 0; i < musicNum; i++)
+        {
+            if (enabled)
+            {
+                if (i == currentPlayingIndex)
+                    musicList[i].volume = DefaultVolume;
+                else
+                    musicList[i].volume = 0f;
+            }
+            else
+            {
+                musicList[i].volume = 0f;
+            }
+        }
+    }
+
+    public bool IsMuted()
+    {
+        return isMuted;
+    }
+
+    // 返回当前正在播放音乐的实际音量（受静音影响）
+    public float GetCurrentVolume()
+    {
+        if (currentPlayingIndex >= 0 && currentPlayingIndex < musicNum && musicList != null)
+        {
+            return musicList[currentPlayingIndex].volume;
+        }
+        return DefaultVolume;
+    }
+
+    // 将全局音量应用到所有音乐（不改变静音状态）
+    public void ApplyGlobalVolume(float volume)
+    {
+        for (int i = 0; i < musicNum; i++)
+        {
+            musicList[i].volume = (isMuted ? 0f : volume) * (i == currentPlayingIndex ? 1f : 0f);
+            // 保持非当前曲目为0
+        }
+        targetVolume = isMuted ? 0f : volume;
+    }
+}

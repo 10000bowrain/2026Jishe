@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/0StartGame\u4E3B\u754C\u9762.unity"
+    guid: 6ace52044cf395a4a8f6ace9274ec8fb
+  - enabled: 1
+    path: "Assets/Scenes/Cartoon1Scene\u6F2B\u753B1.unity"
+    guid: 963d30ac0009bca4490a5089d4464891
+  - enabled: 1
+    path: "Assets/Scenes/Cartoon3Scene\u6F2B\u753B3.unity"
+    guid: 5a8993f87942fa44fb67116067c4aab3
+  - enabled: 1
+    path: "Assets/Scenes/Cartoon2Scene\u6F2B\u753B2.unity"
+    guid: 37565e71bb208cc44ac48f94852774ea
+  - enabled: 1
+    path: "Assets/Scenes/SwitchScene\u9009\u5173\u754C\u9762.unity"
+    guid: 618536f4c61875f4984e7657856df51a
+  - enabled: 0
+    path: Assets/Scenes/MainGame.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: "Assets/Scenes/1-\u664B\u7960\u9C7C\u6CBC\u98DE\u6881.unity"
+    guid: bbc420d4179013b49a90b8e4c9337a17
+  - enabled: 1
+    path: "Assets/Scenes/2-\u8D75\u5DDE\u6865.unity"
+    guid: a500b82115a925a44878f300d0a68ab7
+  - enabled: 1
+    path: "Assets/Scenes/3-\u5E7F\u6D4E\u6865.unity"
+    guid: cc3f1ea034b25824bb51189d2d4ad870
+  - enabled: 1
+    path: Assets/Scenes/LoaddingScene.unity
+    guid: d752d710dd8e7554b9d79e026daa8a58
+  - enabled: 1
+    path: Assets/Scenes/MiniGameScenes/Fish.unity
+    guid: f21ae6e2f56302f4f8bf17f1b710ebab
+  - enabled: 1
+    path: Assets/Scenes/MiniGameScenes/Puzzle.unity
+    guid: 51fc7c0f7a380134ca0b60559f6a0ed9
+  - enabled: 1
+    path: Assets/Scenes/MiniGameScenes/Question.unity
+    guid: 7bbb3236c4a6a9949b045fd24a328af8
+  - enabled: 1
+    path: Assets/Scenes/MiniGameScenes/Puzzle 1.unity
+    guid: f00abf0e27af47f4fa7951f51acfef8b
+  - enabled: 1
+    path: Assets/Scenes/MiniGameScenes/Puzzle 2.unity
+    guid: 42ce3afa2e4d85243ba59077683dead4
+  - enabled: 1
+    path: Assets/Scenes/MiniGameScenes/Question 1.unity
+    guid: 66f6be5d93daae54a87ff470f6c23c0f
+  - enabled: 1
+    path: Assets/Scenes/MiniGameScenes/Question 2.unity
+    guid: 0cab52366b19ec646bc401c08f0188c9
+  m_configObjects: {}

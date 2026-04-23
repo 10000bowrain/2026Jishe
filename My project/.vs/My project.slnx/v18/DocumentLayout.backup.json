@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\Github\\jishe\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\cartooncontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cartooncontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\catubteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\programming\\github\\jishe\\my project\\assets\\scripts\\game\\puzzle\\scenejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\puzzle\\scenejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SceneTransition.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\SceneTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransition.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\SceneTransition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneTransition.cs",
+              "ViewState": "AgIAAGABAAAAAAAAAAAmwBIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T09:35:12.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartoonControler.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CartoonControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CartoonControler.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CartoonControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CartoonControler.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA9wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T09:25:06.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SceneJump.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\SceneJump.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Puzzle\\SceneJump.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\Game\\Puzzle\\SceneJump.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Puzzle\\SceneJump.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:29:55.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIControler.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\UIControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIControler.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\UIControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIControler.cs",
+              "ViewState": "AgIAAGACAAAAAAAAAAAqwKICAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T07:36:48.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatUbteract.cs",
+              "DocumentMoniker": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CatUbteract.cs",
+              "ToolTip": "D:\\Programming\\Github\\jishe\\My project\\Assets\\Scripts\\CatUbteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CatUbteract.cs",
+              "ViewState": "AgIAACYBAAAAAAAAAABCwEMBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T07:36:48.611Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

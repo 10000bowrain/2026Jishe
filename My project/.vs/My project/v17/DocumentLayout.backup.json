@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2026\u8BA1\u8BBE\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\2026\u8BA1\u8BBE\\my project\\assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\2026\u8BA1\u8BBE\\my project\\assets\\scripts\\musiccontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musiccontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusicControler.cs",
+              "DocumentMoniker": "D:\\2026\u8BA1\u8BBE\\My project\\Assets\\Scripts\\MusicControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicControler.cs",
+              "ToolTip": "D:\\2026\u8BA1\u8BBE\\My project\\Assets\\Scripts\\MusicControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicControler.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAAArwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T03:02:58.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIControler.cs",
+              "DocumentMoniker": "D:\\2026\u8BA1\u8BBE\\My project\\Assets\\Scripts\\UIControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIControler.cs",
+              "ToolTip": "D:\\2026\u8BA1\u8BBE\\My project\\Assets\\Scripts\\UIControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIControler.cs",
+              "ViewState": "AgIAAE0FAAAAAAAAAAAtwFkFAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T01:53:54.66Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
